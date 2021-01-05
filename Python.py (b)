@@ -1,0 +1,17 @@
+import csv
+
+with open('data_csv', 'r') as csv_file:
+
+    csv_reader = csv.reader(csv_file)
+
+    for line in csv_reader:
+        print(line)
+Code_1 = int(input("Enter the code1 ")
+Code_2 = int(input("Enter the code2 ")
+
+list_1 = list(data_csv.keys()).index(code_1)
+list_2 = list(data_csv.keys()).index(code_2)
+
+for value in dictionary:
+    for i in range(list_1,list_2):
+        print(i)
